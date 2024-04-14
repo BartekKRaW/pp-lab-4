@@ -8,15 +8,12 @@ public class Manager extends Employee {
         this.numberOfSubordinates = numberOfSubordinates;
 
     }
-
     public Integer getNumberOfSubordinates(){
         return numberOfSubordinates;
     }
-
     public void setNumberOfSubordinates(Integer numberOfSubordinates){
         this.numberOfSubordinates = numberOfSubordinates;
     }
-    
     @Override
     public String toString() {
         return "Manager: " + getName() + ", Salary: " + getSalary() + ", Subordinates: " + numberOfSubordinates;
