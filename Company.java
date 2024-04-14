@@ -3,7 +3,7 @@ public class Company {
         Employee[] employees = new Employee[5];
           int nonManagerCount = 0;
 
-        employees[0] = new Manager("Marek Stuard", 2000);
+        employees[0] = new Manager("Marek Stuard", 2000, 0);
         employees[1] = new Employee("Wojtek Jesionka", 6500);
         employees[2] = new Worker("Bob Marley", 1300);
         employees[3] = new Employee("Grzegorz Kogucik", 9800);
